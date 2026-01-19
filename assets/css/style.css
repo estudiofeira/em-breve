@@ -49,3 +49,52 @@ body {
   font-weight: 300;
   line-height: 1.2;
 }
+/* PÁGINAS INTERNAS */
+.page {
+  padding: 6rem 3rem;
+  max-width: 700px;
+}
+
+.page h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.page p {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.email a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #111;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 2px;
+}
+
+.email a:hover {
+  opacity: 0.6;
+}
+
+.social {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.social a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 300;
+}
+
+.social a:hover {
+  opacity: 0.6;
+}
+
+/* LINK ATIVO NO MENU */
+.nav .active {
+  opacity: 0.5;
+}
